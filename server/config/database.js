@@ -6,8 +6,8 @@ const database = () => {
         // useUnifiedTopology: true
     }).then(() => {
         console.log("mongodb conected!!")
-    }).catch(err => {
-        console.log('err', err)
+    }).catch(error => {
+        console.log('error', error) 
     })
     
 }
